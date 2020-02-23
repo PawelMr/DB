@@ -1,0 +1,15 @@
+{
+    "name": "homepc/db_prob",
+    "authors": [
+        {
+            "name": "HOMEPC",
+            "email": "pawel.mr@mail.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DB\\": "\\"
+        }
+    }
+}
