@@ -9,9 +9,9 @@
 <div class="header"><h2>Работа с базой на примере таблица Users</h2> </div>
 <div class="menu"><h3>меню </h3>
     <br>
-    <a href="http://db.loc/form/filling_table.php">заполнить форму</a>
-    <a href="http://db.loc/form/View_Table_Output.php">сохраненные данные</a>
-    <a href="http://db.loc/form/Filtr_Table.php">поиск данных</a>
+    <a href="/form/filling_table.php">заполнить форму</a>
+    <a href="/form/View_Table_Output.php">сохраненные данные</a>
+    <a href="/form/Filtr_Table.php">поиск данных</a>
 
 
 </div>

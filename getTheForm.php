@@ -13,7 +13,7 @@ $connect = $pdo->causePdo();
 $error= new CheckForm();
 $error = $error -> validationForm($_POST);
 If ($error != null){
-    echo ('<h3>'.$error.'</h3><br><a href="http://db.loc/form/filling_table.php">заполнить форму занова</a> ');
+    echo ('<h3>'.$error.'</h3><br><a href="/form/filling_table.php">заполнить форму занова</a> ');
 }
 else {
 
@@ -28,5 +28,5 @@ else {
                                                            ' .$connect->quote( $_POST['rule']) . ')');
     //$query = $connect -> exec('INSERT INTO user (login, password, name, email, sex, education, year, rule) VALUES(123,123, 123, 123,123, 123,123, 123)');
     //var_dump($query);
-    echo ('<h3><a href="http://db.loc/form/filling_table.php">запись добавлена вернуться к форме</a> </h3>');
+    echo ('<h3><a href="/form/filling_table.php">запись добавлена вернуться к форме</a> </h3>');
 }

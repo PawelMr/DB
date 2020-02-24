@@ -1,4 +1,4 @@
-vendor
-composer.loc
+/vendor
+composer.lock
 памятка.txt
-.idea
+/.idea
