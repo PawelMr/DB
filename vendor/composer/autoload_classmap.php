@@ -6,5 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'DB\\causePdo' => $baseDir . '/causePdo.php',
+    'CheckForm\\CheckForm' => $baseDir . '/CheckForm.php',
+    'ConnectDB\\PdoCause' => $baseDir . '/PdoCause.php',
+    'Table\\TableCreation' => $baseDir . '/TableCreation.php',
+    'ViewTable\\ViewTable' => $baseDir . '/ViewTable.php',
 );

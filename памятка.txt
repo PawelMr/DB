@@ -7,3 +7,45 @@ sex">Пол*:6
 education">образование*:27
 year">год рождения: 4
 rule">с правилами ознакомлен*: 3
+=======================================================================================
+
+    <div action="../ViewTable.php" method="POST" enctype="multipart/form-data">
+
+      <div>
+          <label for="fields">поля</label>
+            <select id="fields" name="fields[]" size="1" multiple>
+                    <option value="login" selected>Логин</option>
+                    <option value="name" selected>Имя</option>
+                    <option value="email" selected>email</option>
+                    <option value="sex" selected>Пол</option>
+                    <option value="education" selected>образование</option>
+                    <option value="year">год рождения</option>
+                    <option value="rule">согласие с правилами</option>
+            </select>
+      </div>
+
+
+            <input type="submit" value="Отправить" >
+    </form>
+================================================================
+
+<table class="filter">
+        <tbody>
+            <form action="../ViewTable.php" method="POST" enctype="multipart/form-data">
+
+                <tr><td><label for="fields">поля</label></td>
+                <td><select id="fields" name="fields[]" size="1" multiple>
+                        <option value="login" selected>Логин</option>
+                        <option value="name" selected>Имя</option>
+                        <option value="email" selected>email</option>
+                        <option value="sex" selected>Пол</option>
+                        <option value="education" selected>образование</option>
+                        <option value="year">год рождения</option>
+                        <option value="rule">согласие с правилами</option>
+                    </select>
+                </td>
+
+                <td><input type="submit" value="Отправить" ></td></tr>
+            </form>
+        </tbody>
+    </table>

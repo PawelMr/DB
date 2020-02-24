@@ -9,7 +9,13 @@
 </head>
 <body>
     <div class="header"><h2>Работа с базой на примере таблица Users</h2> </div>
-    <div class="menu"><h3>меню </h3></div>
+    <div class="menu"><h3>меню </h3>
+        <br>
+        <a href="http://db.loc/form/filling_table.php">заполнить форму</a>
+        <a href="http://db.loc/form/View_Table_Output.php">сохраненные данные</a>
+        <a href="http://db.loc/form/Filtr_Table.php">поиск данных</a>
+
+    </div>
     <div class="text">
         <h2>Форма для заполнения</h2>
 
@@ -36,26 +42,17 @@
             </div>  <!--откуда такой ид похоже лажа, ...похоже нет, так ошибок не всплывает-->
    
 			<div><label for="education">образование:</label>
-				<select id="education" name="education">
-                    <option value="0"></option>
-                    <option value="1">среднее</option>
-                    <option value="2">неполное высшее</option>
-                    <option value="3">высшее</option>
-<!--					<option value=""></option>-->
-<!--					<option value="secondary education">среднее</option>-->
-<!--                    <option value="incomplete higher education">неполное высшее</option>-->
-<!--					<option value="higher education">высшее</option>-->
+				<select id="education" name="education" size="1">
+					<option value=""></option>
+					<option value="secondary education">среднее</option>
+                    <option value="incomplete higher education">неполное высшее</option>
+					<option value="higher education">высшее</option>
 				</select>
 			</div>
             <div><label for="year">год рождения:</label>
                 <input type="text" name="year" id="year" class="pole">
             </div>
-            <!--<div><label for="comment">комментарий*:</label>
-                <textarea id="comment" name="comment" cols="15" rows="10"></textarea>
-            </div>
-            <div><label for="userfile">Ваша фото:</label>
-                <input type="file" name="userfile" id="userfile">
-            </div>-->
+
             <div><label for="rule">с правилами ознакомлен:</label>
                 <input type="checkbox" name="rule" id="rule" value="yes">
             </div>

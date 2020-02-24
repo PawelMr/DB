@@ -1,9 +1,8 @@
 <?php
-namespace DB;
+namespace ConnectDB;
+ use PDO;
 
-use PDO;
-
-class causePdo
+class PdoCause
 {
     public function causePdo(){
         $config = require( __DIR__.'\config.php');
